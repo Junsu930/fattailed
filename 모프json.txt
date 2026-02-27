@@ -1,0 +1,86 @@
+[
+  {
+    "morph_name_kr": "노멀",
+    "morph_name_en": "Normal",
+    "genetics": "Wild Type (야생형)",
+    "description": "가장 흔하게 볼 수 있는 기본적인 야생형 발색으로, 갈색, 회색, 탠(tan) 색상의 음영과 굵은 밴드 무늬를 가지고 있습니다.",
+    "caution": "특이사항 없음"
+  },
+  {
+    "morph_name_kr": "아멜라니스틱",
+    "morph_name_en": "Amelanistic",
+    "genetics": "Recessive (열성)",
+    "description": "검은색 색소가 결핍되어 밝은 오렌지나 연갈색 톤의 발색을 띱니다.",
+    "caution": "특정 라인(일반 아멜)의 경우 암컷 개체에서 산란 문제 및 무정란을 낳는 불임 이슈가 관찰되므로 번식 시 주의가 필요합니다."
+  },
+  {
+    "morph_name_kr": "오레오",
+    "morph_name_en": "Oreo",
+    "genetics": "Recessive (열성)",
+    "description": "오레오 쿠키처럼 흑백의 대비가 뚜렷하며 짙은 회색과 검은색, 흰색이 어우러진 발색을 보여줍니다.",
+    "caution": "특이사항 없음"
+  },
+  {
+    "morph_name_kr": "화이트아웃",
+    "morph_name_en": "White Out",
+    "genetics": "Incomplete Dominant (불완전 우성)",
+    "description": "기존의 밴드 패턴이 깨지면서 밝고 하얀 발색이 두드러지게 나타납니다.",
+    "caution": "슈퍼폼(화이트아웃 x 화이트아웃) 교배 시 치사율(Lethal)이 발생하므로 절대로 교배해서는 안 됩니다."
+  },
+  {
+    "morph_name_kr": "줄루",
+    "morph_name_en": "Zulu",
+    "genetics": "Recessive (열성)",
+    "description": "패턴이 변형되어 독특한 무늬를 형성하며, 거의 항상 반투명한 배 비늘(translucent belly scales) 특징을 동반합니다.",
+    "caution": "특이사항 없음"
+  },
+  {
+    "morph_name_kr": "제로",
+    "morph_name_en": "Zero",
+    "genetics": "Polygenic (다인자 유전)",
+    "description": "스트라이프와 스팅어의 특징이 결합된 모습으로 등의 밴드가 일직선에 가깝게 이어져 있습니다.",
+    "caution": "과거 열성으로 알려졌으나, 여러 유전자가 복합적으로 작용하는 다인자 유전 형질입니다."
+  },
+  {
+    "morph_name_kr": "패턴리스",
+    "morph_name_en": "Patternless",
+    "genetics": "Recessive (열성)",
+    "description": "몸의 밴드 무늬가 완전히 소실되어 무늬 없는 깔끔한 솔리드 톤을 보여줍니다.",
+    "caution": "특이사항 없음"
+  },
+  {
+    "morph_name_kr": "고스트",
+    "morph_name_en": "Ghost",
+    "genetics": "Recessive (열성)",
+    "description": "색감이 전체적으로 바랜 듯한 파스텔 톤을 띠어 몽환적이고 부드러운 느낌을 줍니다.",
+    "caution": "암컷 개체의 경우 불임(Infertile) 문제가 빈번하게 발생하므로 번식 목적의 입양 시 주의해야 합니다."
+  },
+  {
+    "morph_name_kr": "카라멜",
+    "morph_name_en": "Caramel",
+    "genetics": "Recessive (열성)",
+    "description": "레몬 옐로우와 짙은 오렌지색 베이스에 밀크 초콜릿 색상의 밴드를 가지는 모프입니다.",
+    "caution": "고스트와 마찬가지로 암컷 개체에서 불임 현상이 빈번하게 나타납니다."
+  },
+  {
+    "morph_name_kr": "스팅어",
+    "morph_name_en": "Stinger",
+    "genetics": "Polygenic (다인자 유전)",
+    "description": "등의 밴드가 이어져 내려오며 하단 밴드가 벌의 침(Stinger)처럼 뾰족한 모양으로 끝나는 독특한 패턴을 가집니다.",
+    "caution": "단순 열성이 아니며, 패턴리스 발현과 연관되어 나타나는 다인자 유전 형질입니다."
+  },
+  {
+    "morph_name_kr": "스트라이프",
+    "morph_name_en": "Stripe",
+    "genetics": "Dominant (우성)",
+    "description": "주둥이 끝부터 머리와 등 중앙을 가로지르는 선명한 하얀색 일직선 줄무늬가 특징입니다.",
+    "caution": "스트라이프 유전자를 하나만 가지거나 두 개를 가져도(헤테로/호모) 외형이 동일하게 나타납니다."
+  },
+  {
+    "morph_name_kr": "탠져린",
+    "morph_name_en": "Tangerine",
+    "genetics": "Polygenic (다인자 유전)",
+    "description": "일반적인 갈색 톤 대신 붉은색과 주황색 발색이 짙게 나타나도록 선택적 번식을 통해 강화된 모프입니다.",
+    "caution": "특이사항 없음"
+  }
+]
