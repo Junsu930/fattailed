@@ -8,7 +8,15 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 
 # 발급받으신 OpenAI API 키를 입력해 주세요.
-os.environ["GOOGLE_API_KEY"] = "AIzaSyB6nHqS7ZwhzTv_4oInCZRaY7lAbKFNDOA"
+current_dir = os.path.dirname(os.path.abspath(__file__))
+password_file_path = os.path.join(current_dir, "api_key_security.json")
+    
+with open(password_file_path, "r", encoding="utf-8") as file:
+  api_key = json.load(file)
+  
+real_api_key = api_key["api_key"]
+
+os.environ["GOOGLE_API_KEY"] = real_api_key
 # 1. 정성껏 만든 펫테일 게코 JSON 데이터 불러오기
 file_path = "gecko_morphs.json"
 
@@ -64,6 +72,7 @@ try:
     
     response = rag_chain.invoke(test_question)
     print(f"AI 답변: {response}")
+
 
 except Exception as e:
     print(f"오류가 발생했습니다: {e}")
